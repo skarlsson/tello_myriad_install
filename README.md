@@ -2,10 +2,10 @@
 
 #tello stuff
 
-'''
+´´´
 sudo apt install sudo libopencv-dev python3-opencv ffmpeg libavdevice-dev libavfilter-dev mplayer
 sudo pip3 install imutils pynput pygame av image ffmpeg-python opencv-python
-'''
+´´´
 
 '''
 git clone https://github.com/hanyazou/TelloPy
