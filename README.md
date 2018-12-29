@@ -8,6 +8,8 @@ sudo pip3 install imutils pynput pygame av image ffmpeg-python opencv-python
 ```
 
 ```
+mkdir tello
+cd tello
 git clone https://github.com/hanyazou/TelloPy
 cd TelloPy
 python3 setup.py bdist_wheel
@@ -17,7 +19,13 @@ cd ..
 
 ```
 git clone https://github.com/Ubotica/telloCV.git
-cd 
+cd ..
+```
+
+Test your tello
+```
+cd TelloPy/tellopy/examples
+python3 ./keyboard_and_video.sh
 ```
 
 
@@ -45,7 +53,7 @@ cd /opt/intel/computer_vision_sdk/install_dependencies
 ./install_NCS_udev_rules.sh 
 ```
 
-# reboot and tst you installation
+# reboot and test you installation
 ```
 cd /opt/intel/computer_vision_sdk/deployment_tools/demo/
 ./demo_squeezenet_download_convert_run.sh -d=MYRIAD
