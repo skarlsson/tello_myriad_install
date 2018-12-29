@@ -7,25 +7,25 @@ sudo apt install sudo libopencv-dev python3-opencv ffmpeg libavdevice-dev libavf
 sudo pip3 install imutils pynput pygame av image ffmpeg-python opencv-python
 ```
 
-'''
+```
 git clone https://github.com/hanyazou/TelloPy
 cd TelloPy
 python3 setup.py bdist_wheel
 pip3 install dist/tellopy-*.dev*.whl --upgrade
 cd ..
-'''
+```
 
-'''
+```
 git clone https://github.com/Ubotica/telloCV.git
 cd 
-'''
+```
 
 
 
 # get openvino intel
 https://software.intel.com/en-us/articles/OpenVINO-Install-Linux
 
-'''
+```
 cd ~/Downloads/
 export VINO_VERSION=2018.5.445
 tar -zxf l_openvino_toolkit_p_$VINO_VERSION.tgz
@@ -43,12 +43,12 @@ sudo usermod -a -G users "$(whoami)"
 
 cd /opt/intel/computer_vision_sdk/install_dependencies
 ./install_NCS_udev_rules.sh 
-'''
+```
 
 # reboot and tst you installation
-'''
+```
 cd /opt/intel/computer_vision_sdk/deployment_tools/demo/
 ./demo_squeezenet_download_convert_run.sh -d=MYRIAD
-'''
+```
 
 
