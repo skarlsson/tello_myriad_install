@@ -12,8 +12,8 @@ mkdir tello
 cd tello
 git clone https://github.com/hanyazou/TelloPy
 cd TelloPy
-python3 setup.py bdist_wheel
-pip3 install dist/tellopy-*.dev*.whl --upgrade
+/usr/bin/python3 setup.py bdist_wheel
+sudo pip3 install dist/tellopy-*.dev*.whl --upgrade
 cd ..
 ```
 
@@ -25,7 +25,7 @@ cd ..
 Test your tello
 ```
 cd TelloPy/tellopy/examples
-python3 ./keyboard_and_video.sh
+/usr/bin/python3 ./keyboard_and_video.py
 ```
 
 
